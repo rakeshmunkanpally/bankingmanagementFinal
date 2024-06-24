@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#63849e;
+}
+ 
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+ 
+li a:hover:not(.active) {
+  background-color:#63849e;
+}
+ 
+.active {
+  background-color:#63849e;
+}
+img {
+    max-width: 110.9%;
+    max-height: 82vh;
+    
+    }
+.error
+{
+	color:blue;
+}
+body{
+	padding:0px;
+	margin: 0px;
+	
+	}
+
+
